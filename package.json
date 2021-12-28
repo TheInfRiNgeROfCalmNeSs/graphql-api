@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "apollo-server": "^3.5.0"
+  },
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "Building a GraphQL API with Apollo Server",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheInfRiNgeROfCalmNeSs/graphql-api.git"
+  },
+  "author": "TheInfRiNgeROfCalmNeSs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheInfRiNgeROfCalmNeSs/graphql-api/issues"
+  },
+  "homepage": "https://github.com/TheInfRiNgeROfCalmNeSs/graphql-api#readme"
+}
