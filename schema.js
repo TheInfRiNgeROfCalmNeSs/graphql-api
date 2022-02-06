@@ -1,5 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server');
-const SessionAPI = require('./datasources/sessions')
+const { gql } = require('apollo-server');
 
 const typeDefs = gql`
     type Query {
@@ -34,22 +33,4 @@ const typeDefs = gql`
     }
 `
 
-const resolvers = {
-    Query: {
-        sessions: (parent, args, { dataSources }, info) => {
-            return dataSources.sessionAPI.getSessions(args);
-        },
-        sessionById: (parent, { id }, { dataSources }, info) => {
-            return dataSources.sessionAPI.getSessionById(id);
-        }
-    }
-}
-
-const dataSources = () => ({
-    sessionAPI: new SessionAPI()
-});
-
-const server = new ApolloServer({ typeDefs, resolvers, dataSources });
-
-server.listen({ port: 3000 }).then(({ url}) => console.log(`GraphQL running at ${url}`));
-
+module.exports = { typeDefs };

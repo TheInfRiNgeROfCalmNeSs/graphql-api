@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "apollo-server": "^3.5.0"
+    "apollo-datasource": "^3.3.0",
+    "apollo-server": "^3.5.0",
+    "lodash": "^4.17.21"
   },
   "name": "graphql-api",
   "version": "1.0.0",
   "description": "Building a GraphQL API with Apollo Server",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "node index.js"
   },

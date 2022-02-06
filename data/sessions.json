@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "title": "Book 1",
+        "description": "The description of the book one",
+        "startsAt": "01",
+        "endsAt": "12",
+        "room": "3",
+        "day": "4",
+        "format": "some format",
+        "track": ".NET",
+        "level": "5"
+    },
+    {
+        "id": 2,
+        "title": "Book 2",
+        "description": "The description of the book two",
+        "startsAt": "02",
+        "endsAt": "13",
+        "room": "3",
+        "day": "4",
+        "format": "some format",
+        "track": ".NET",
+        "level": "5"
+    }
+    ,
+    {
+        "id": 3,
+        "title": "Book 3",
+        "description": "The description of the book three",
+        "startsAt": "03",
+        "endsAt": "14",
+        "room": "3",
+        "day": "5",
+        "format": "some format",
+        "track": ".NET",
+        "level": "5"
+    }
+]
