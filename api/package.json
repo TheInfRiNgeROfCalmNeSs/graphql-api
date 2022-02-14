@@ -9,7 +9,8 @@
   "description": "Building a GraphQL API with Apollo Server",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "start": "nodemon index.js --ignore 'data'"
   },
   "repository": {
     "type": "git",
